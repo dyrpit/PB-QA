@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
+    <style>
+      .time {
+        font-weight: 700;
+        font-size: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>About</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident unde commodi exercitationem
+      reiciendis? A quam nihil repudiandae excepturi magnam, delectus, molestias placeat illum
+      voluptatem, quia libero corporis voluptate mollitia dolor.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque iste nobis illo
+      exercitationem facere, quisquam temporibus deleniti assumenda minima pariatur id nulla impedit
+      facilis repudiandae sit mollitia accusantium omnis libero! Et eaque deleniti dolorem atque
+      aspernatur commodi fugit eum necessitatibus repellat corrupti excepturi amet fuga, cumque
+      earum, iusto at, maxime doloribus illum placeat deserunt incidunt ipsum labore. Sint, a
+      assumenda! Facilis dignissimos doloribus voluptatem quasi exercitationem accusamus laudantium
+      asperiores voluptates, sint voluptas qui ducimus necessitatibus minus distinctio. Perspiciatis
+      possimus nisi autem alias facilis, illo, odio dolores, voluptatem assumenda quis
+      necessitatibus.
+    </p>
+    <p class="time"></p>
+    <script>
+      let date = new Date().toISOString();
+      const timeEl = document.querySelector('.time');
+      timeEl.innerHTML = date;
+
+      setInterval(() => {
+        timeEl.innerHTML = new Date().toISOString();
+      }, 1000);
+    </script>
+  </body>
+</html>

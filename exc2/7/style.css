@@ -1,0 +1,7 @@
+/* p + div > p {
+  color: violet;
+} */
+
+div div p {
+  color: violet;
+}

@@ -1,0 +1,7 @@
+div + div {
+  color: blue;
+}
+/* 
+div ~ div {
+  color: blue;
+} */

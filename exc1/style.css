@@ -1,5 +1,27 @@
+#green {
+  color: green;
+}
+
+
+
+
 p {
-  color: red;
+  color: red !important;
+}
+
+p {
+  color: purple;
+}
+
+
+
+
+p.blue {
+  color: blue;
+}
+
+p {
+  color: purple;
 }
 
 li:hover {

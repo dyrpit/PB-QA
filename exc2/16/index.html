@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      label:has(+ input:valid) {
+        color: green;
+      }
+
+      input[type='email'] {
+        background-color: red;
+      }
+
+      input[type='email']:valid {
+        background-color: green;
+      }
+
+      input[type='checkbox']:checked {
+        box-shadow: 0px 10px 15px 10px rgba(0, 0, 0, 1);
+      }
+
+      button[type='submit']:hover {
+        background-color: black;
+        color: white;
+      }
+    </style>
+    <title>16</title>
+  </head>
+  <body>
+    <div>
+      <form action="" method="get" enctype="text/plain">
+        <label for="login">Email</label>
+        <input type="email" id="login" required />
+        <label for="iscorrect">is correct</label>
+        <input type="checkbox" id="iscorrect" />
+        <button type="submit">Submit</button>
+      </form>
+      <button type="button">Simple button</button>
+    </div>
+  </body>
+</html>
