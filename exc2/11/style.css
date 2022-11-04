@@ -1,0 +1,7 @@
+/* .user .name {
+  background-color: blue;
+} */
+
+div > .name {
+  background-color: blue;
+}
