@@ -1,7 +1,7 @@
 # API docs
 
 Api URL:
-`https://simple-books-api.glitch.me/`
+`https://simple-books-api.glitch.me`
 ## Endpoints
 
 - [Status](#status)
