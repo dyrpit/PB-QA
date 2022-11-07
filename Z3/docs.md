@@ -115,7 +115,7 @@ Update existing order.
 
 ### Delete order
 
-`PATCH /orders/:id`
+`DELETE /orders/:id`
 
 Delete existing order.
 
@@ -125,13 +125,6 @@ Delete existing order.
 | `Authorization` | string | header | Yes | Specifies the bearer token of the API client.|
 | `id` | string | path | Yes | Specifies order id you want to delete.|
 
-**Body**
-
-```
-{
-	"customerName": "Customer new name"
-}
-```
 
 ## Register user
 
