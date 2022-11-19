@@ -40,6 +40,8 @@ Przykłady selektorów kolejno dla poniższych elementów: **p** oraz **h1**
 
 ### Zadania
 
+[Link do strony](https://dyrpit.github.io/PB-QA/Z4/task/)
+
 Podczas tego zadania najlepiej korzystać z metody document.querySelectorAll() lub $$() co daje taki sam efekt, ponieważ w łatwy sposób będziemy wiedzieć czy udało się pobrać tylko jeden element czy może więcej. Pamiętaj że w każdym zadaniu chodzi o pobranie jednego konkretego elementu.
 
 1. Pobierz element z treścią "Tytuł 1".
@@ -96,4 +98,3 @@ pm.collectionVariables.set("userId", _id);
 ```
 
 Korzystając ze Snippetów dostępnych w Postmanie przetestuj każdy endpoint pod kątem zwracanego statusu tak aby testy były **PASS**. Snippety dostępne są z poziomu żądania po wejściu w zakładkę Tests.
-
