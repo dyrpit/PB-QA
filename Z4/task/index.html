@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <style>
+      body {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 10px;
+      }
+    </style>
+    <title>Z4 - pracownia</title>
+  </head>
+  <body>
+    <div class="box">
+      <h1 id="title">Tutył 1</h1>
+      <p class="violet">Tekst 1</p>
+    </div>
+    <div class="box grey">
+      <h2 id="title">Tytuł 2</h2>
+      <p class="violet">Tekst 2</p>
+    </div>
+    <div class="box">
+      <p class="violet">Tekst 3</p>
+      <p class="violet big">Tekst 4</p>
+    </div>
+    <div class="box">
+      <p class="bold">Tekst 5</p>
+      <span class="bold">Tekst 6</span>
+    </div>
+    <form id="first-form" class="box">
+      <h2>First Form</h2>
+      <input type="email" name="email" placeholder="Email" />
+      <input type="password" name="password" placeholder="Password" />
+      <label>
+        <span>Agree to terms of use</span>
+        <input type="checkbox" checked />
+      </label>
+    </form>
+    <form id="second-form" class="box">
+      <h2>Second Form</h2>
+      <input type="text" name="firstName" placeholder="First name" />
+      <input type="text" name="lastName" placeholder="Last name" />
+      <label>
+        <span>Agree to terms of use</span>
+        <input type="checkbox" />
+      </label>
+    </form>
+    <form id="third-form" class="box">
+      <h2>Third Form</h2>
+      <input type="text" name="firstName" placeholder="First name" />
+      <input type="text" name="lastName" placeholder="Last name" />
+      <label>
+        <span>Agree to terms of use</span>
+        <input type="checkbox" checked />
+      </label>
+    </form>
+    <form id="fourth-form" class="box">
+      <h2>Fourth Form</h2>
+      <label>
+        <span>1</span>
+        <input type="radio" name="level" value="1" />
+      </label>
+      <label>
+        <span>2</span>
+        <input type="radio" name="level" value="2" />
+      </label>
+      <label>
+        <span>3</span>
+        <input type="radio" name="level" value="3" />
+      </label>
+      <label>
+        <span>4</span>
+        <input type="radio" name="level" value="4" />
+      </label>
+    </form>
+    <div class="box">
+      <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+      </ul>
+    </div>
+    <script>
+      function getRandomNumber() {
+        return Math.floor(Math.random() * 10000);
+      }
+
+      const header = document.querySelector('h2#title');
+      header.id = `${header.id}-${getRandomNumber()}`;
+    </script>
+  </body>
+</html>
